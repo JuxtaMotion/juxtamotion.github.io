@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JuxtaMotion — Side-by-Side Video Comparison</title>
+  <meta name="description" content="JuxtaMotion is an Android app for side-by-side video comparison — sync two clips, compare motion, and export the composite.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #fafcfc;
+      --text: #16302e;
+      --muted: #5b7472;
+      --accent: #0e6f66;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101b1a;
+        --text: #e2ecea;
+        --muted: #93a8a5;
+        --accent: #4fb3a8;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+    h1 {
+      color: var(--accent);
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+      margin-bottom: 0.5rem;
+    }
+    p { color: var(--muted); max-width: 26rem; margin: 0 auto 0.5rem; }
+    .links { margin-top: 1.5rem; font-size: 0.95rem; }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>JuxtaMotion</h1>
+    <p>Side-by-side video comparison for Android.<br>Sync two clips, compare the motion, export the composite.</p>
+    <p>Coming soon to Google Play.</p>
+    <p class="links">
+      <a href="/privacy/">Privacy policy</a> ·
+      <a href="mailto:hello@juxtamotion.com">hello@juxtamotion.com</a>
+    </p>
+  </main>
+</body>
+</html>
